@@ -10,7 +10,5 @@ public class Main {
         calc_mul.multiply();
         calc_mul.displayResult("*");
 
-
-
     }
 }
