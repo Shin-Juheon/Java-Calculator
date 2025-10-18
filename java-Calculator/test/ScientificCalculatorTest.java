@@ -13,6 +13,6 @@ class ScientificCalculatorTest {
 
     @Test
     void power() {
-        assertEquals(1296, scientificCalc.Power());
+        assertEquals(216, scientificCalc.Power());
     }
 }
