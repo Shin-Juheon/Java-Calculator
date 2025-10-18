@@ -10,5 +10,10 @@ public class Main {
         calc_mul.multiply();
         calc_mul.displayResult("*");
 
+        ScientificCalculator calc_pow = new ScientificCalculator();
+        calc_pow.setNumbers(6, 4);
+        calc_pow.Power();
+        calc_pow.displayResult("^");
+
     }
 }
