@@ -13,7 +13,7 @@ public class Main {
         ScientificCalculator calc_pow = new ScientificCalculator();
         calc_pow.setNumbers(6, 4);
         calc_pow.Power();
-        calc_pow.displayResult("^");
+        calc_pow.PowerResult("^");
 
     }
 }
