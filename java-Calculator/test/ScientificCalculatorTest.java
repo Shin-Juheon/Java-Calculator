@@ -8,11 +8,14 @@ class ScientificCalculatorTest {
     @BeforeEach
     void setUp() {
         scientificCalc = new ScientificCalculator();
-        scientificCalc.setNumbers(6, 3);
+        scientificCalc.setNumbers(5, 3);
     }
 
     @Test
     void power() {
-        assertEquals(216, scientificCalc.Power());
+        assertEquals(125, scientificCalc.Power());
     }
+
+    @Test
+    void modul() {assertEquals(2, scientificCalc.modul);}
 }
