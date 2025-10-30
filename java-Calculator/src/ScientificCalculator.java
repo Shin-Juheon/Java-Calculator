@@ -33,6 +33,11 @@ public class ScientificCalculator extends AdvancedCalculator {
     public void PowerResult(String operator) {
         System.out.println(num + " " + operator + " " + num2 + " = " + result);
     }
+
+    public int Modul() {
+        result = num1 % num2
+    }
+
 }
 
 // ---------- 수정 전 버전 ----------
