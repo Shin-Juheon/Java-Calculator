@@ -17,5 +17,5 @@ class ScientificCalculatorTest {
     }
 
     @Test
-    void modul() {assertEquals(2, scientificCalc.modul);}
+    void Modul() {assertEquals(2, scientificCalc.Modul());}
 }
