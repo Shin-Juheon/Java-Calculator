@@ -15,5 +15,9 @@ public class Main {
         calc_pow.Power();
         calc_pow.PowerResult("^");
 
+        ScientificCalculator calc_mod = new ScientificCalculator();
+        calc_mod.setNumbers(6, 3);
+        clac_mod.Modul();
+        calc_mod.ModulResult("%");
     }
 }
