@@ -17,7 +17,7 @@ public class Main {
 
         ScientificCalculator calc_mod = new ScientificCalculator();
         calc_mod.setNumbers(6, 3);
-        calc_mod.Modul();
+        calc_mod.Modulo();
         calc_mod.displayResult("%");
     }
 }

@@ -34,7 +34,7 @@ public class ScientificCalculator extends AdvancedCalculator {
         System.out.println(num + " " + operator + " " + num2 + " = " + result);
     }
 
-    public int Modul() {
+    public int Modulo() {
         result = num1 % num2;
         return result;
     }
