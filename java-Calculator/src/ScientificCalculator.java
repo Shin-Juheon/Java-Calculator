@@ -1,6 +1,6 @@
 public class ScientificCalculator extends AdvancedCalculator {
-    // 계산기 v3.0 개선 버전
-    // 이슈 https://github.com/Shin-Juheon/Java-Calculator/issues/14
+    // 계산기 v4.0 버전
+    // 이슈 https://github.com/Shin-Juheon/Java-Calculator/issues/19
 
     // 제곱 연산자 두 수로 제곱 완료
     // https://github.com/Shin-Juheon/Java-Calculator/issues/15
@@ -34,6 +34,9 @@ public class ScientificCalculator extends AdvancedCalculator {
         System.out.println(num + " " + operator + " " + num2 + " = " + result);
     }
 
+
+    // 나머지 연산자로 두 수 계산 완료
+    // https://github.com/Shin-Juheon/Java-Calculator/issues/20
     public int Modulo() {
         result = num1 % num2;
         return result;
